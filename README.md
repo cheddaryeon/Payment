@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# Payment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Devcamp 2024.03
+>
+> 참고 : https://imweb.me/notice?view&page=8&582
 
-## Available Scripts
+## project inform
 
-In the project directory, you can run:
+### 주문 상품
 
-### `npm start`
+상품 이미지 / 가격 / 수량
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 주문자 정보
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+이름 / 전화번호 / 메일 / 수정버튼
 
-### `npm test`
+### 배송 정보
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+이름 / 전화번호 / 주소 / 배송메모 / 수정버튼
 
-### `npm run build`
+### 쿠폰&포인트
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+쿠폰 / 쿠폰 적용 / 쿠폰 등록 / 포인트 적용 / 보유 포인트 정보
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 결재금액
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+가격 / 쿠폰&포인트 할인내역 / 총 결재금액 / 포인트 적립 금액
 
-### `npm run eject`
+### 결재방법
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+신용카드 / 무통장입금 / 카카오페이 / 핸드폰 결재 / 가상계좌 / 입금 은행 및 입금자명
